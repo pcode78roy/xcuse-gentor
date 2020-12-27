@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excuse Generator</title>
+    <link rel="stylesheet" herf="index.css" >
+</head>
+<body>
+    <h1>EXCUSE GENERATOR!</h1><h3>Perfect excuses to give to your taskmaster!!</h3>
+    <div class="formdiv">Select the situation: 
+    <form action="">
+        <select onchange="">
+            <option >select</option>
+            <option value="class" onchange="excuseforClass()">CLASSES</option>
+            <option value="office" onchange="excuseforOffice()">OFFICE</option>
+            <option value="friends" onchange="excuseforFriends()">FRIENDS</option>
+            <option value="misc" onchange="excuseforMisc()">MISCELLANEOUS</option>
+        </select>
+    </form>
+    <button  id="generator" onclick="generateExcuse()">Generate</button>
+    <button  id="reset" onclick="reset()">Reset</button>
+    
+</div>
+<!-- <div class="result" id="finaldiv"></div> -->
+</body>
+</html>
